@@ -17,7 +17,7 @@ import kotlin.system.measureTimeMillis
  * @OutputTimeUnit: 벤치마크 결과의 시간 단위 설정
  * @Benchmark: 벤치마크 대상 메서드
  * @Setup: 벤치마크 실행 전 초기화 작업
- * 실행방법: ./gradlew jmh
+ * 실행방법:  ./gradlew jmh
  */
 @State(Scope.Benchmark)
 @BenchmarkMode(Mode.AverageTime)
