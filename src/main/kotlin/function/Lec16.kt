@@ -13,10 +13,10 @@ fun main() {
   //KStringFilter { it.startsWith("A") }
 }
 
-fun consumeFilter(filter: StringFilter) { }
-
-fun <T> consumeFilter(filter: Filter<T>) {}
-
-fun interface KStringFilter {
-  fun predicate(str: String): Boolean
-}
+//fun consumeFilter(filter: StringFilter) { }
+//
+//fun <T> consumeFilter(filter: Filter<T>) {}
+//
+//fun interface KStringFilter {
+//  fun predicate(str: String): Boolean
+//}
